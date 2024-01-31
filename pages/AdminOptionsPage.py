@@ -7,7 +7,7 @@ from config.selenium_helper import Selenium_Helper
 class AdminOptionsPage(Selenium_Helper):
     admin_menu_side_lbl = (By.XPATH, "//a[@href='/web/index.php/admin/viewAdminModule']")
 
-    ## Main Options on the top sdfsdf
+    ## Main Options on the top
     user_management_option = (
         By.XPATH, "//span[@class='oxd-topbar-body-nav-tab-item' and contains(text(), 'User Management')]")
 
